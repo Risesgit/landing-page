@@ -1,0 +1,153 @@
+a:link { text-decoration: none; }
+a:visited { text-decoration: none; }
+a:hover { text-decoration: none; }
+a:active { text-decoration: none; }
+
+* {
+  font-family: 'Roboto', sans-serif;
+} 
+
+body {
+  background: #0f0f0f;
+  margin: 0;
+  padding: 0;
+}
+
+.main-header-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.main-header-container .margin {
+  flex: 1 1 0%;
+}
+
+.main-header-container .hero-margin {
+  background: #1f2937;
+}
+.second-section-container .second-section-margin {
+  background: #ffffff;
+}
+
+.hero-container {
+  display: flex;
+  flex-direction: column;
+  flex: 6 1 0%;
+  background: #1f2937;
+}
+
+/* this selector selects all children inside of .hero-container */
+.hero-container .hero-child {
+  flex: 1;
+}
+
+.nav-container {
+  display: flex;
+  flex-direction: row;
+}
+
+/* this selector selects all child divs inside of .nav-container */
+.nav-container > div {
+  flex: 1;
+}
+
+.nav-container .nav-logo {
+  height: 48px;
+  flex: 0.25;
+}
+.nav-logo {
+  font-size: 24px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  color: #f9faf8;
+  margin-top: 24px;
+  margin-left: 48px;
+}
+.nav-container .nav-links-container {
+  height: 48px;
+  flex: 0.75;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  margin-top: 24px;
+  margin-right: 48px;
+  gap: 24px;
+}
+.nav-link {
+  color: #f9faf8;
+  letter-spacing: 1px;
+}
+
+
+.header-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.header-container .header-child {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 380px;
+}
+
+.header-container .header-text-container {
+  background: #1f2937;
+  flex: 0.5;
+  display: flex;
+  flex-direction: column;
+  margin-left: 48px;
+}
+
+.header-image-container {
+  display: flex;
+  flex: 0.5;
+  margin-right: 48px;
+}
+.header-image {
+  color: #e5e7eb;
+  background: #6d747d;
+  padding: 110px 0;
+  text-align: center;
+}
+
+.hero-main-text h1 {
+  font-size: 48px;
+  font-weight: 800;
+  color: #f9faf8;
+  text-align: left;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: 0;
+  margin-right: 0;
+}
+.hero-secondary-text p {
+  font-size: 18px;
+  color: #e5e7eb;
+  text-align: left;
+  margin-top: 10;
+  margin-bottom: 10;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.signup-button-wrapper {
+  display: block;
+  text-align: left;
+}
+.signup-button {
+  border: none;
+  border-radius: 10px;
+  display: inline-block;
+  font-size: 18px;
+  padding: 9px 38px;
+  width: auto;
+}
+.cta-button {
+  background-color: #388ff6;
+  color: #fff !important;
+}
+
+.cta-button:hover {
+  background-color: #1f5496;
+}
