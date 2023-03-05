@@ -30,6 +30,10 @@ body {
   background: #ffffff;
 }
 
+.third-section-container .third-section-margin {
+  background: #e5e7eb;
+}
+
 .hero-container {
   display: flex;
   flex-direction: column;
@@ -114,7 +118,7 @@ body {
 
 .hero-main-text h1 {
   font-size: 48px;
-  font-weight: 800;
+  font-weight: 700;
   color: #f9faf8;
   text-align: left;
   margin-top: 0;
@@ -171,7 +175,7 @@ body {
 
 .info-text-header h2{
   font-size: 36px;
-  font-weight: 800;
+  font-weight: 700;
   color: #1f2937;
   text-align: center;
   margin-top: 48px;
@@ -207,3 +211,42 @@ body {
   color: #1f2937;
 }
 
+/* THIRD SECTION */
+
+.third-section-container {
+  display: flex;
+  flex-direction: row;
+  height: 360px;
+}
+
+.third-section-divider {
+  display: flex;
+  flex-direction: row;
+  flex: 6 1 0%;
+  background: #e5e7eb;
+}
+
+.third-section-box {
+  flex: 1 1 0%;
+}
+
+.third-section-quote {
+  flex: 5 1 0%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.quote-body {
+  text-align: left;
+  font-size: 36px;
+  font-style: italic;
+  font-weight: 300;
+  color: #1f2937;
+}
+
+.quote-header {
+  text-align: right;
+  font-size: 24px;
+  font-weight: 700;
+}
